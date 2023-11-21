@@ -35,19 +35,19 @@
   outline: 2px solid var(--themes-main-color, #000);
   background: var(--background-color, #FFF);
   font-family: var(--accent-font);
-  padding-top: 136px;
+  padding-top: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem);
   padding-bottom: 23px;
 }
 
 .header__title {
-  font-size: 65px;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   font-weight: var(--font-weight-regular, 400);
   color: var(--font-color, #000);
 }
 
 .header__full-name {
   padding-top: 19px;
-  font-size: 23px;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-style: normal;
   font-weight: var(--font-weight-regular);
   line-height: normal;
@@ -205,8 +205,8 @@
 }
 
 .footer__button-icon {
-  max-width: 21px;
-  max-height: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .footer__button-text {
@@ -303,4 +303,26 @@ dialog::backdrop {
 
 .image-filter-7 {
   filter: brightness(200%) opacity(0.8);
+}
+
+@media (width <=376px) {
+  :root {
+    --card-width: 99%;
+  }
+
+  .footer__button {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer__button-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+
+  .footer__button {
+    min-width: 306px;
+    min-height: 80px;
+  }
 }
