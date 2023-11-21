@@ -137,7 +137,6 @@
   font-style: normal;
   font-weight: var(--font-weight-regular);
   line-height: normal;
-  text-transform: uppercase;
   text-shadow: -1px 0 var(--watermark-outline), 0 1px var(--watermark-outline),
     1px 0 var(--watermark-outline), 0 -1px var(--watermark-outline);
   mix-blend-mode: hard-light;
