@@ -216,6 +216,64 @@
   /* 12.6px */
 }
 
+.dialog {
+  max-width: 357px;
+  border: 2px solid var(--themes-main-color, #000);
+  background-color: var(--themes-background, #FFF);
+  color: var(--themes-main-color, #000);
+  font-family: 'PressStart2P';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 31.5px 32.5px 30.5px 31.5px;
+}
+
+.dialog[open] {
+  /* display: grid;
+  grid-template-rows: repeat(2, min-content);
+  gap: 30px; */
+}
+
+.dialog__text-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dialog__icon {
+  max-width: 39px;
+  max-height: 39px;
+  flex-shrink: 0;
+}
+
+.dialog__text {
+  max-width: 234px;
+}
+
+.dialog__button {
+  border: none;
+  outline: 2px solid var(--themes-main-color, #000);
+  background: var(--themes-background, #FFF);
+
+  min-width: 293px;
+  min-height: 38px;
+  margin-top: 30px;
+}
+
+.dialog__button-text {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+dialog::backdrop {
+  opacity: 0.75;
+  background: var(--themes-main-color, #000);
+}
+
 .image-filter-1 {
   filter: sepia(80%);
 }
