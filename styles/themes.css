@@ -22,10 +22,11 @@
       #D3D3D3 2px,
       #D3D3D3 4px),
     linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+  --heart-border: #000;
 }
 
 :root.theme-dark {
-  --font-weingt-regular: 465;
+  --font-weight-regular: 465;
   --font-weight-bold: 785;
   --font-color: #00CC14;
   --watermark-outline: #FFF;
@@ -41,4 +42,50 @@
       #000 2px,
       #000 4px),
     linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+  --heart-border: #00CC14;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-weingt-regular: 400;
+    --font-weight-bold: 700;
+    --font-color: #000;
+    --watermark-outline: #FFF;
+    --themes-main-color: #000;
+    --background-color: #FFF;
+    --background-image: repeating-linear-gradient(transparent,
+        transparent,
+        #D3D3D3 2px,
+        #D3D3D3 4px),
+      repeating-linear-gradient(90deg,
+        transparent,
+        transparent,
+        #D3D3D3 2px,
+        #D3D3D3 4px),
+      linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+    --heart-border: #000;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-weight-regular: 465;
+    --font-weight-bold: 785;
+    --font-color: #00CC14;
+    --watermark-outline: #FFF;
+    --themes-main-color: #00CC14;
+    --background-color: #000;
+    --background-image: repeating-linear-gradient(transparent,
+        transparent,
+        #000 2px,
+        #000 4px),
+      repeating-linear-gradient(90deg,
+        transparent,
+        transparent,
+        #000 2px,
+        #000 4px),
+      linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+    --heart-border: #00CC14;
+  }
 }

@@ -52,6 +52,7 @@
   font-weight: var(--font-weight-regular);
   line-height: normal;
   text-transform: uppercase;
+  color: var(--font-color, #000);
 }
 
 .header__theme-menu {
@@ -73,6 +74,7 @@
   font-style: normal;
   font-weight: var(--font-weight-regular, 400);
   line-height: normal;
+  color: var(--font-color, #000);
 }
 
 .theme-menu__button:disabled:before {
@@ -91,7 +93,7 @@
 
 .main__card {
   outline: 2px solid var(--themes-main-color, #000);
-  background: var(--themes-background, #FFF);
+  background: var(--background-color, #FFF);
   max-width: var(--card-width, 700px);
 }
 
@@ -220,7 +222,7 @@
 .dialog {
   max-width: 357px;
   border: 2px solid var(--themes-main-color, #000);
-  background-color: var(--themes-background, #FFF);
+  background-color: var(--background-color, #FFF);
   color: var(--themes-main-color, #000);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -258,7 +260,7 @@
 .dialog__button {
   border: none;
   outline: 2px solid var(--themes-main-color, #000);
-  background: var(--themes-background, #FFF);
+  background: var(--background-color, #FFF);
 
   min-width: 293px;
   min-height: 38px;
