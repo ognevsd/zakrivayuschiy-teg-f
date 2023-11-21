@@ -170,8 +170,23 @@
   margin-bottom: 25px;
 }
 
-.card__like-heart {
-  margin-right: 9px;
+.card__icon-button {
+  border: none;
+  background: none;
+  margin-right: 4px;
+  align-self: flex-end;
+}
+
+.like-icon {
+  transform: scale(150%);
+}
+
+.like-icon:hover {
+  cursor: pointer;
+}
+
+.like-icon .heart-fireworks {
+  opacity: 0;
 }
 
 .card__like-button {
