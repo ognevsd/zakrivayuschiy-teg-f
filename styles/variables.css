@@ -2,11 +2,14 @@
 
 :root {
   --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
+  --font-color: #000;
   --font-weingt-regular: 400;
   --font-weight-bold: 700;
-  --header-font: 'PressStart2P', sans-serif;
-  --card-width: 696px;
+  --card-width: clamp(23.438rem, 16.373rem + 30.141vw, 43.5rem);
   --watermark-outline: #FFF;
+  --themes-main-color: #000;
+  --background-color: #FFF;
   --background-image: repeating-linear-gradient(transparent,
       transparent,
       #D3D3D3 2px,
