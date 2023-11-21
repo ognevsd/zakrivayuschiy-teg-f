@@ -179,6 +179,43 @@
   min-height: 36px;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 54px;
+  margin-bottom: 105px;
+}
+
+.footer__button {
+  min-width: 335px;
+  min-height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  outline: 2px solid var(--themes-main-color, #000);
+  background-color: #FFF;
+}
+
+.footer__button-icon {
+  max-width: 21px;
+  max-height: 21px;
+}
+
+.footer__button-text {
+  color: var(--themes-main-color, #000);
+  font-family: 'PressStart2P';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+  /* 12.6px */
+}
+
 .image-filter-1 {
   filter: sepia(80%);
 }
