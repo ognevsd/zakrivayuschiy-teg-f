@@ -36,7 +36,7 @@
   background: var(--background-color, #FFF);
   font-family: var(--accent-font);
   padding-top: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem);
-  padding-bottom: 23px;
+  padding-bottom: 20px;
 }
 
 .header__title {
@@ -63,7 +63,7 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 5px;
 }
 
 .theme-menu__button {
