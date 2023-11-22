@@ -369,6 +369,7 @@ dialog::backdrop {
 
 .button:focus-visible {
   box-shadow: 2px 2px 0px 2px var(--themes-main-color);
+  transition: box-shadow 0.1s;
 }
 
 @media (width <=376px) {
