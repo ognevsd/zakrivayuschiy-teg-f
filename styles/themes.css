@@ -23,6 +23,7 @@
       #D3D3D3 4px),
     linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
   --heart-border: #000;
+  --hover-color: #FFF;
 }
 
 :root.theme-dark {
@@ -43,6 +44,7 @@
       #000 4px),
     linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
   --heart-border: #00CC14;
+  --hover-color: #00CC14;
 }
 
 @media (prefers-color-scheme: light) {

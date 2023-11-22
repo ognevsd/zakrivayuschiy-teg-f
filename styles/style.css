@@ -334,13 +334,13 @@ dialog::backdrop {
   height: 100%;
   content: "";
   mix-blend-mode: difference;
-  background-color: #FFF;
+  background-color: var(--hover-color);
   transition: width 0.5s ease-in-out;
 }
 
 .button:hover::after {
   width: 100%;
-  transition: width 300ms, background-color 0.5s;
+  transition: width 0.5s;
   mix-blend-mode: difference;
 }
 
