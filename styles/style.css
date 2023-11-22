@@ -388,18 +388,14 @@ dialog::backdrop {
   }
 
   .footer__button {
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
+    min-width: 306px;
+    min-height: 80px;
   }
 
   .footer__button-icon {
     width: 28px;
     height: 28px;
-  }
-
-
-  .footer__button {
-    min-width: 306px;
-    min-height: 80px;
   }
 }
