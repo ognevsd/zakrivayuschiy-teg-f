@@ -344,6 +344,14 @@ dialog::backdrop {
   mix-blend-mode: difference;
 }
 
+.button:focus {
+  border: none;
+}
+
+.button:focus-visible {
+  box-shadow: 2px 2px 0px 2px var(--themes-main-color);
+}
+
 @media (width <=376px) {
   :root {
     --card-width: 99%;
