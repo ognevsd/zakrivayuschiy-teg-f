@@ -29,7 +29,7 @@
   --font-weight-regular: 465;
   --font-weight-bold: 785;
   --font-color: #00CC14;
-  --watermark-outline: #FFF;
+  --watermark-outline: #000;
   --themes-main-color: #00CC14;
   --background-color: #000;
   --background-image: repeating-linear-gradient(transparent,
@@ -50,7 +50,7 @@
     --font-weingt-regular: 400;
     --font-weight-bold: 700;
     --font-color: #000;
-    --watermark-outline: #FFF;
+    --watermark-outline: #000;
     --themes-main-color: #000;
     --background-color: #FFF;
     --background-image: repeating-linear-gradient(transparent,
