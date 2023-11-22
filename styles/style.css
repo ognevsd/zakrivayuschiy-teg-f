@@ -372,6 +372,14 @@ dialog::backdrop {
   transition: box-shadow 0.1s;
 }
 
+@supports ((text-stroke: 1px var(--watermark-outline)) or (-webkit-text-stroke: 1px var(--watermark-outline))) {
+  .card__image-watermark {
+    -webkit-text-stroke: 1px var(--watermark-outline);
+    text-stroke: 1px var(--watermark-outline);
+    text-shadow: none;
+  }
+}
+
 @media (width <=376px) {
   :root {
     --card-width: 99%;
