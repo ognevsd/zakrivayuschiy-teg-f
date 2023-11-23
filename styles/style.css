@@ -90,6 +90,10 @@
   animation: menu_animation 0.5s ease-in-out alternate infinite;
 }
 
+.theme-menu__button:disabled{
+  pointer-events: none;
+}
+
 .theme-menu__item:hover .theme-menu__button {
   opacity: 0.6;
   transition: opacity 0.3s;
