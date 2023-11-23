@@ -19,8 +19,11 @@
   min-block-size: 100dvb;
   font-family: var(--main-font);
   font-size: 18px;
-  background-image: var(--background-image);
-  background-color: var(--background-color, #FFF);
+  background-color: var(--background-color);
+  background-image: 
+  repeating-linear-gradient(90deg, transparent 0 2px, var(--gradient-main) 2px 4px),
+  repeating-linear-gradient(180deg, transparent 0 2px, var(--gradient-main) 2px 4px),
+  linear-gradient(to bottom, var(--gradient-from) 0%, var(--gradient-to));
   font-variation-settings: "wght" var(--font-weight-regular);
 }
 

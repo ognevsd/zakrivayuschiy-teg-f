@@ -12,16 +12,9 @@
   --watermark-outline: #FFF;
   --themes-main-color: #000;
   --background-color: #FFF;
-  --background-image: repeating-linear-gradient(transparent,
-      transparent,
-      #D3D3D3 2px,
-      #D3D3D3 4px),
-    repeating-linear-gradient(90deg,
-      transparent,
-      transparent,
-      #D3D3D3 2px,
-      #D3D3D3 4px),
-    linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+  --gradient-main: #D3D3D3;
+  --gradient-from: #E7E7E7;
+  --gradient-to: #1A1A1A;
   --heart-border: #000;
   --hover-color: #FFF;
 }
@@ -33,16 +26,9 @@
   --watermark-outline: #000;
   --themes-main-color: #00CC14;
   --background-color: #000;
-  --background-image: repeating-linear-gradient(transparent,
-      transparent,
-      #000 2px,
-      #000 4px),
-    repeating-linear-gradient(90deg,
-      transparent,
-      transparent,
-      #000 2px,
-      #000 4px),
-    linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+  --gradient-main: #000;
+  --gradient-from: #007F0C;
+  --gradient-to: #004306;
   --heart-border: #00CC14;
   --hover-color: #00CC14;
 }
@@ -55,16 +41,9 @@
     --watermark-outline: #000;
     --themes-main-color: #000;
     --background-color: #FFF;
-    --background-image: repeating-linear-gradient(transparent,
-        transparent,
-        #D3D3D3 2px,
-        #D3D3D3 4px),
-      repeating-linear-gradient(90deg,
-        transparent,
-        transparent,
-        #D3D3D3 2px,
-        #D3D3D3 4px),
-      linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+    --gradient-main: #D3D3D3;
+    --gradient-from: #E7E7E7;
+    --gradient-to: #1A1A1A;
     --heart-border: #000;
   }
 }
@@ -78,16 +57,9 @@
     --watermark-outline: #FFF;
     --themes-main-color: #00CC14;
     --background-color: #000;
-    --background-image: repeating-linear-gradient(transparent,
-        transparent,
-        #000 2px,
-        #000 4px),
-      repeating-linear-gradient(90deg,
-        transparent,
-        transparent,
-        #000 2px,
-        #000 4px),
-      linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+    --gradient-main: #000;
+    --gradient-from: #007F0C;
+    --gradient-to: #004306;
     --heart-border: #00CC14;
   }
 }

@@ -10,16 +10,9 @@
   --watermark-outline: #FFF;
   --themes-main-color: #000;
   --background-color: #FFF;
-  --background-image: repeating-linear-gradient(transparent,
-      transparent,
-      #D3D3D3 2px,
-      #D3D3D3 4px),
-    repeating-linear-gradient(90deg,
-      transparent,
-      transparent,
-      #D3D3D3 2px,
-      #D3D3D3 4px),
-    linear-gradient(to bottom, #E7E7E7 0.01%, #1A1A1A);
+  --gradient-main: #D3D3D3;
+  --gradient-from: #E7E7E7;
+  --gradient-to: #1A1A1A;
   --heart-border: #000;
   --heart-color: #FF0000;
   --hover-color: #FFF;
