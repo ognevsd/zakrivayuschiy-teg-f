@@ -40,10 +40,11 @@
   padding-bottom: 20px;
 }
 
-.header__title {
+.header__logo {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   font-weight: var(--font-weight-regular, 400);
   color: var(--font-color, #000);
+  text-decoration: none;
 }
 
 .header__full-name {
