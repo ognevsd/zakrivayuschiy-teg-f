@@ -80,12 +80,13 @@
   font-weight: var(--font-weight-regular, 400);
   line-height: normal;
   color: var(--font-color, #000);
+  position: relative;
 }
 
 .theme-menu__button:disabled:before {
   content: "▶";
   position: absolute;
-  margin-left: -20px;
+  left: -20px;
   animation: menu_animation 0.5s ease-in-out alternate infinite;
 }
 
