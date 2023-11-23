@@ -250,6 +250,7 @@
 .footer__button-icon {
   width: 21px;
   height: 21px;
+  color: var(--themes-main-color);
 }
 
 .footer__button-text {
@@ -285,8 +286,8 @@
 }
 
 .dialog__icon {
-  max-width: 39px;
-  max-height: 39px;
+  width: 39px;
+  height: 39px;
   flex-shrink: 0;
 }
 
