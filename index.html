@@ -446,16 +446,18 @@
         </div>
       </article>
     </section>
+
+    <section class="save">
+      <button type="button" class="save__button button" onclick="window['dialog-id'].showModal()"
+        aria-controls="dialog-id">
+        <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="save__button-icon">
+          <use href="./images/floppy_drive.svg#floppy_drive" />
+        </svg>
+        <span class="save__button-text">Сохранить на память</span>
+      </button>
+    </section>
   </main>
-  <footer class="footer">
-    <button type="button" class="footer__button button" onclick="window['dialog-id'].showModal()"
-      aria-controls="dialog-id">
-      <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="footer__button-icon">
-        <use href="./images/floppy_drive.svg#floppy_drive" />
-      </svg>
-      <span class="footer__button-text">Сохранить на память</span>
-    </button>
-  </footer>
+
 
   <dialog id="dialog-id" class="dialog">
     <form method="dialog">

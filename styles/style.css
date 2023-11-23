@@ -225,7 +225,7 @@
   min-height: 36px;
 }
 
-.footer {
+.save {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,7 +233,7 @@
   margin-bottom: 105px;
 }
 
-.footer__button {
+.save__button {
   min-width: 335px;
   min-height: 51px;
   display: flex;
@@ -247,13 +247,13 @@
   background-color: var(--background-color, #FFF);
 }
 
-.footer__button-icon {
+.save__button-icon {
   width: 21px;
   height: 21px;
   color: var(--themes-main-color);
 }
 
-.footer__button-text {
+.save__button-text {
   color: var(--themes-main-color, #000);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -389,14 +389,14 @@ dialog::backdrop {
     --card-width: 99%;
   }
 
-  .footer__button {
+  .save__button {
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 306px;
     min-height: 80px;
   }
 
-  .footer__button-icon {
+  .save__button-icon {
     width: 28px;
     height: 28px;
   }
