@@ -20,10 +20,10 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   background-color: var(--background-color);
-  background-image: 
-  repeating-linear-gradient(90deg, transparent 0 2px, var(--gradient-main) 2px 4px),
-  repeating-linear-gradient(180deg, transparent 0 2px, var(--gradient-main) 2px 4px),
-  linear-gradient(to bottom, var(--gradient-from) 0%, var(--gradient-to));
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0 2px, var(--gradient-main) 2px 4px),
+    repeating-linear-gradient(180deg, transparent 0 2px, var(--gradient-main) 2px 4px),
+    linear-gradient(to bottom, var(--gradient-from) 0%, var(--gradient-to));
   font-variation-settings: "wght" var(--font-weight-regular);
 }
 
@@ -90,7 +90,7 @@
   animation: menu_animation 0.5s ease-in-out alternate infinite;
 }
 
-.theme-menu__button:disabled{
+.theme-menu__button:disabled {
   pointer-events: none;
 }
 
